@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +18,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return Inertia\Inertia::render('HomeC');
-});
+// Route::get('/hh', function () {
+//     return Inertia\Inertia::render('HomeC');
+// })->name('home0');
 
 Route::get('/about', function () {
     return Inertia\Inertia::render('AboutC');
@@ -36,3 +37,5 @@ Route::get('/content', function () {
 Route::get('/test', function () {
     return Inertia\Inertia::render('test');
 });
+
+Route::get('/home', [HomeController::class, 'index'])->name('home1');

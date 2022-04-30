@@ -3848,7 +3848,7 @@ function create_fragment(ctx) {
   var sidebarc;
   var t1;
   var section0;
-  var t47;
+  var t22;
   var footerc;
   var current;
   navc = new _Shared_NavC_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({});
@@ -3862,8 +3862,8 @@ function create_fragment(ctx) {
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(sidebarc.$$.fragment);
       t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       section0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("section");
-      section0.innerHTML = "<div class=\"max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8\"><div class=\"max-w-lg mx-auto text-center\"><h2 class=\"text-3xl font-bold sm:text-4xl\">Kickstart your marketing</h2> \n  \n        <p class=\"mt-4 text-gray-300\">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur\n          aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur\n          saepe laborum.</p></div> \n  \n      <div class=\"grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3\"><a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n  \n        <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n  \n        <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n  \n        <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n  \n        <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n  \n        <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n  \n          <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n  \n          <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n            possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a></div></div> \n\n    <div class=\"flex items-center justify-center\"><a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-900 dark:text-gray-600\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path></svg></a> \n  \n      <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">1</a> \n  \n      <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">2</a> \n  \n      <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">...</a> \n  \n      <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">9</a> \n  \n      <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">10</a> \n  \n      <a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\"></path></svg></a></div>";
-      t47 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      section0.innerHTML = "<div class=\"max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8\"><div class=\"max-w-lg mx-auto text-center\"><h2 class=\"text-3xl font-bold sm:text-4xl\">Kickstart your marketing</h2> \n\n                <p class=\"mt-4 text-gray-300\">Lorem ipsum, dolor sit amet consectetur adipisicing elit.\n                    Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae\n                    aperiam fugit consequuntur saepe laborum.</p></div> \n\n            <div class=\"grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3\"><a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n\n                    <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n\n                    <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit.\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\n                        blanditiis laudantium.</p></a></div></div> \n\n        <div class=\"flex items-center justify-center\"><a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-900 dark:text-gray-600\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path></svg></a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">1</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">2</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">...</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">9</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">10</a> \n\n            <a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\"></path></svg></a></div>";
+      t22 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(footerc.$$.fragment);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(section0, "class", "text-white bg-gray-900");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(section1, "class", "flex");
@@ -3875,7 +3875,7 @@ function create_fragment(ctx) {
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(sidebarc, section1, null);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section1, t1);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section1, section0);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t47, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t22, anchor);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(footerc, target, anchor);
       current = true;
     },
@@ -3898,7 +3898,7 @@ function create_fragment(ctx) {
       if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t0);
       if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(section1);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(sidebarc);
-      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t47);
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t22);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(footerc, detaching);
     }
   };
@@ -3923,6 +3923,134 @@ var HomeC = /*#__PURE__*/function (_SvelteComponent) {
 }(svelte_internal__WEBPACK_IMPORTED_MODULE_0__.SvelteComponent);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomeC);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/HomeCbackup.svelte":
+/*!***********************************************!*\
+  !*** ./resources/js/Pages/HomeCbackup.svelte ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
+/* harmony import */ var _Shared_NavC_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/NavC.svelte */ "./resources/js/Shared/NavC.svelte");
+/* harmony import */ var _Shared_SidebarC_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Shared/SidebarC.svelte */ "./resources/js/Shared/SidebarC.svelte");
+/* harmony import */ var _Shared_FooterC_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Shared/FooterC.svelte */ "./resources/js/Shared/FooterC.svelte");
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+/* resources\js\Pages\HomeCbackup.svelte generated by Svelte v3.46.6 */
+
+
+
+
+
+function create_fragment(ctx) {
+  var navc;
+  var t0;
+  var section1;
+  var sidebarc;
+  var t1;
+  var section0;
+  var t48;
+  var footerc;
+  var current;
+  navc = new _Shared_NavC_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({});
+  sidebarc = new _Shared_SidebarC_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({});
+  footerc = new _Shared_FooterC_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({});
+  return {
+    c: function c() {
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(navc.$$.fragment);
+      t0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      section1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("section");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(sidebarc.$$.fragment);
+      t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      section0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("section");
+      section0.innerHTML = "<div class=\"max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8\"><div class=\"max-w-lg mx-auto text-center\"><h2 class=\"text-3xl font-bold sm:text-4xl\">Kickstart your marketing</h2> \n      \n            <p class=\"mt-4 text-gray-300\">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur\n              aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur\n              saepe laborum.</p></div> \n      \n          <div class=\"grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3\"><a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n      \n            <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n      \n            <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n      \n            <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n      \n            <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a> \n      \n            <a class=\"block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10\" href=\"/services/digital-campaigns\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-10 h-10 text-pink-500\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M12 14l9-5-9-5-9 5 9 5z\"></path><path d=\"M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222\"></path></svg> \n      \n              <h3 class=\"mt-4 text-xl font-bold text-white\">Digital campaigns</h3> \n      \n              <p class=\"mt-1 text-sm text-gray-300\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo\n                possimus adipisci distinctio alias voluptatum blanditiis laudantium.</p></a>\n            8389894888888</div></div> \n    \n        <div class=\"flex items-center justify-center\"><a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-900 dark:text-gray-600\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path></svg></a> \n      \n          <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">1</a> \n      \n          <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">2</a> \n      \n          <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">...</a> \n      \n          <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">9</a> \n      \n          <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">10</a> \n      \n          <a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\"></path></svg></a></div>";
+      t48 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(footerc.$$.fragment);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(section0, "class", "text-white bg-gray-900");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(section1, "class", "flex");
+    },
+    m: function m(target, anchor) {
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(navc, target, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t0, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, section1, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(sidebarc, section1, null);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section1, t1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section1, section0);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t48, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(footerc, target, anchor);
+      current = true;
+    },
+    p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
+    i: function i(local) {
+      if (current) return;
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_in)(navc.$$.fragment, local);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_in)(sidebarc.$$.fragment, local);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_in)(footerc.$$.fragment, local);
+      current = true;
+    },
+    o: function o(local) {
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_out)(navc.$$.fragment, local);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_out)(sidebarc.$$.fragment, local);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.transition_out)(footerc.$$.fragment, local);
+      current = false;
+    },
+    d: function d(detaching) {
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(navc, detaching);
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t0);
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(section1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(sidebarc);
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t48);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(footerc, detaching);
+    }
+  };
+}
+
+var HomeCbackup = /*#__PURE__*/function (_SvelteComponent) {
+  _inherits(HomeCbackup, _SvelteComponent);
+
+  var _super = _createSuper(HomeCbackup);
+
+  function HomeCbackup(options) {
+    var _this;
+
+    _classCallCheck(this, HomeCbackup);
+
+    _this = _super.call(this);
+    (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.init)(_assertThisInitialized(_this), options, null, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__.safe_not_equal, {});
+    return _this;
+  }
+
+  return _createClass(HomeCbackup);
+}(svelte_internal__WEBPACK_IMPORTED_MODULE_0__.SvelteComponent);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomeCbackup);
 
 /***/ }),
 
@@ -8139,6 +8267,7 @@ var map = {
 	"./ContactC.svelte": "./resources/js/Pages/ContactC.svelte",
 	"./ContentC.svelte": "./resources/js/Pages/ContentC.svelte",
 	"./HomeC.svelte": "./resources/js/Pages/HomeC.svelte",
+	"./HomeCbackup.svelte": "./resources/js/Pages/HomeCbackup.svelte",
 	"./test.svelte": "./resources/js/Pages/test.svelte"
 };
 
