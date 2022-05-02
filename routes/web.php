@@ -39,3 +39,4 @@ Route::get('/test', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index'])->name('home1');
+

@@ -2,7 +2,12 @@
     import NavC from "../Shared/NavC.svelte";
     import SidebarC from "../Shared/SidebarC.svelte";
     import FooterC from "../Shared/FooterC.svelte";
+
+
+    export let title, description
 </script>
+
+
 
 <!--
   This component uses @tailwindcss/forms
@@ -20,11 +25,14 @@
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
             <div class="max-w-lg mx-auto text-center">
                 <h2 class="text-3xl font-bold sm:text-4xl">
-                    Kickstart your marketing
+
+                  <!-- {topTitle}  -->Kickstart your marketing
+                  <!-- {topDescription}  -->
+
                 </h2>
 
                 <p class="mt-4 text-gray-300">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae
                     aperiam fugit consequuntur saepe laborum.
                 </p>
@@ -57,11 +65,11 @@
                     </svg>
 
                     <h3 class="mt-4 text-xl font-bold text-white">
-                        Digital campaigns
+                        {title} Digital campaigns
                     </h3>
 
                     <p class="mt-1 text-sm text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        {description} Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ex ut quo possimus adipisci distinctio alias voluptatum
                         blanditiis laudantium.
                     </p>
