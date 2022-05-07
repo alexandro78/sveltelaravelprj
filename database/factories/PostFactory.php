@@ -24,3 +24,5 @@ class PostFactory extends Factory
         ];
     }
 }
+
+// App\Models\Post::factory(10)->create()

@@ -1,0 +1,2 @@
+php artisan migrate:freshe
+App\Models\Post::factory(10)->create()
