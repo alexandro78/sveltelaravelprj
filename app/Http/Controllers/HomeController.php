@@ -12,13 +12,17 @@ class HomeController extends Controller
     {
 
         $posts = Post::find(1);
+        $authors = Author::find(2)->posts;
+        dd($authors, $posts);
+        // $testposts = Author::find(1);
+        
 
-        $posts->post->title;
+        // $posts->post->title;
         // $posts->author->title;
 
         return Inertia::render('HomeC', [
-            'title' => $posts,
-            'description' => 'description',
+            'posts' => $posts,
+            'authors' => $authors,
 
         ]);
 

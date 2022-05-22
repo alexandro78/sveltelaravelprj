@@ -12,7 +12,7 @@ class Author extends Model
     /**
      * Get the posts for the athor
      */
-    public function getPosts()
+    public function posts()
     {
 
         return $this->hasMany(Post::class);

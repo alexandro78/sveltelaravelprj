@@ -4,7 +4,7 @@
     import FooterC from "../Shared/FooterC.svelte";
 
 
-    export let title, description
+    export let posts, authors
 </script>
 
 
@@ -65,11 +65,12 @@
                     </svg>
 
                     <h3 class="mt-4 text-xl font-bold text-white">
-                        {title} Digital campaigns
+                        {posts.title} Digital campaigns
                     </h3>
 
                     <p class="mt-1 text-sm text-gray-300">
-                        {description} Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        {posts.description} 
+                        dd( {authors.lastname})  --Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ex ut quo possimus adipisci distinctio alias voluptatum
                         blanditiis laudantium.
                     </p>

@@ -9,15 +9,15 @@ class Post extends Model
 {
     use HasFactory;
 
-/**
-     * Get the author for the post
-     */
-    public function getAuthor()
-    {
+// /**
+//      * Get the author for the post
+//      */
+//     public function author()
+//     {
 
-        $this->belongsTo(Author::class);
+//         return  $this->belongsTo(Author::class);
 
-    }
+//     }
 
     
 
