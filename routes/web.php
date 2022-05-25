@@ -40,3 +40,4 @@ Route::get('/test', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home1');
 
+Route::get('/test', [HomeController::class, 'test'])->name('test');

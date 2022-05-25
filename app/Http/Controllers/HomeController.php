@@ -13,7 +13,7 @@ class HomeController extends Controller
 
         $posts = Post::find(1);
         $authors = Author::find(2)->posts;
-        dd($authors, $posts);
+        // dd($authors, $posts);
         // $testposts = Author::find(1);
         
 
@@ -28,6 +28,17 @@ class HomeController extends Controller
 
 
         
+    }
+
+    public function test()
+    {
+        $author = Post::find(1)->author;
+        $posts = Author::find(2)->posts;
+
+        return view('test', [
+            'posts' => $posts,
+            'author' => $author,
+    ]); 
     }
 
 }

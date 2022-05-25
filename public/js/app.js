@@ -3883,9 +3883,6 @@ function create_fragment(ctx) {
   ctx[0].description + "";
   var t10;
   var t11;
-  var t12_value =
-  /*authors*/
-  ctx[1].lastname + "";
   var t12;
   var t13;
   var t14;
@@ -3921,9 +3918,11 @@ function create_fragment(ctx) {
       t9 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       p1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
       t10 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t10_value);
-      t11 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" \r\n                        dd( ");
-      t12 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t12_value);
-      t13 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(")  --Lorem ipsum dolor sit amet consectetur adipisicing elit.\r\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\r\n                        blanditiis laudantium.");
+      t11 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      t12 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(
+      /*authors*/
+      ctx[1]);
+      t13 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" \\----Lorem ipsum dolor sit amet consectetur adipisicing elit.\r\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\r\n                        blanditiis laudantium.");
       t14 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       div3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
       div3.innerHTML = "<a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-900 dark:text-gray-600\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path></svg></a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">1</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">2</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">...</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">9</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">10</a> \n\n            <a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\"></path></svg></a>";
@@ -3997,11 +3996,11 @@ function create_fragment(ctx) {
       1) && t10_value !== (t10_value =
       /*posts*/
       ctx[0].description + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t10, t10_value);
-      if ((!current || dirty &
+      if (!current || dirty &
       /*authors*/
-      2) && t12_value !== (t12_value =
+      2) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t12,
       /*authors*/
-      ctx[1].lastname + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t12, t12_value);
+      ctx[1]);
     },
     i: function i(local) {
       if (current) return;

@@ -70,7 +70,7 @@
 
                     <p class="mt-1 text-sm text-gray-300">
                         {posts.description} 
-                        dd( {authors.lastname})  --Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        {authors} \----Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ex ut quo possimus adipisci distinctio alias voluptatum
                         blanditiis laudantium.
                     </p>
