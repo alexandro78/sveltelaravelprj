@@ -3853,6 +3853,90 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+function get_each_context(ctx, list, i) {
+  var child_ctx = ctx.slice();
+  child_ctx[1] = list[i];
+  return child_ctx;
+} // (45:13) {#each authors as author }
+
+
+function create_each_block(ctx) {
+  var a;
+  var svg;
+  var path0;
+  var path1;
+  var path2;
+  var t0;
+  var h3;
+  var t2;
+  var p;
+  var t3;
+  var t4_value =
+  /*author*/
+  ctx[1].firstname + "";
+  var t4;
+  var t5;
+  var t6;
+  return {
+    c: function c() {
+      a = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+      svg = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("svg");
+      path0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
+      path1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
+      path2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
+      t0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      h3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("h3");
+      h3.textContent = "Digital campaigns";
+      t2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      p = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
+      t3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("##--- ");
+      t4 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t4_value);
+      t5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" ********---##\r\n                        \r\n\r\n\r\n\r\n                        \r\n                     Lorem ipsum dolor sit amet consectetur adipisicing elit.\r\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\r\n                        blanditiis laudantium.");
+      t6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path0, "d", "M12 14l9-5-9-5-9 5 9 5z");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path1, "d", "M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-linecap", "round");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-linejoin", "round");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-width", "2");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "d", "M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg, "xmlns", "http://www.w3.org/2000/svg");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg, "class", "w-10 h-10 text-pink-500");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg, "fill", "none");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg, "viewBox", "0 0 24 24");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg, "stroke", "currentColor");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(h3, "class", "mt-4 text-xl font-bold text-white");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(p, "class", "mt-1 text-sm text-gray-300");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "class", "block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "href", "/services/digital-campaigns");
+    },
+    m: function m(target, anchor) {
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, a, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, svg);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg, path0);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg, path1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg, path2);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, t0);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, h3);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, t2);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, p);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p, t3);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p, t4);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p, t5);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a, t6);
+    },
+    p: function p(ctx, dirty) {
+      if (dirty &
+      /*authors*/
+      1 && t4_value !== (t4_value =
+      /*author*/
+      ctx[1].firstname + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t4, t4_value);
+    },
+    d: function d(detaching) {
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(a);
+    }
+  };
+}
+
 function create_fragment(ctx) {
   var navc;
   var t0;
@@ -3864,34 +3948,22 @@ function create_fragment(ctx) {
   var div0;
   var t5;
   var div1;
-  var a0;
-  var svg0;
-  var path0;
-  var path1;
-  var path2;
   var t6;
-  var h3;
-  var t7_value =
-  /*posts*/
-  ctx[0].title + "";
-  var t7;
-  var t8;
-  var t9;
-  var p1;
-  var t10_value =
-  /*posts*/
-  ctx[0].description + "";
-  var t10;
-  var t11;
-  var t12;
-  var t13;
-  var t14;
   var div3;
-  var t26;
+  var t18;
   var footerc;
   var current;
   navc = new _Shared_NavC_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({});
   sidebarc = new _Shared_SidebarC_svelte__WEBPACK_IMPORTED_MODULE_2__["default"]({});
+  var each_value =
+  /*authors*/
+  ctx[0];
+  var each_blocks = [];
+
+  for (var i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+  }
+
   footerc = new _Shared_FooterC_svelte__WEBPACK_IMPORTED_MODULE_3__["default"]({});
   return {
     c: function c() {
@@ -3906,44 +3978,17 @@ function create_fragment(ctx) {
       div0.innerHTML = "<h2 class=\"text-3xl font-bold sm:text-4xl\">Kickstart your marketing</h2> \n\n                <p class=\"mt-4 text-gray-300\">Lorem ipsum, dolor sit amet consectetur adipisicing elit.\n                    Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae\n                    aperiam fugit consequuntur saepe laborum.</p>";
       t5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       div1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
-      a0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
-      svg0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("svg");
-      path0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
-      path1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
-      path2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.svg_element)("path");
+
+      for (var _i = 0; _i < each_blocks.length; _i += 1) {
+        each_blocks[_i].c();
+      }
+
       t6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
-      h3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("h3");
-      t7 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t7_value);
-      t8 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" Digital campaigns");
-      t9 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
-      p1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
-      t10 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t10_value);
-      t11 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
-      t12 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(
-      /*authors*/
-      ctx[1]);
-      t13 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" \\----Lorem ipsum dolor sit amet consectetur adipisicing elit.\r\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\r\n                        blanditiis laudantium.");
-      t14 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       div3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
       div3.innerHTML = "<a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-900 dark:text-gray-600\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path></svg></a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">1</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">2</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">...</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">9</a> \n\n            <a href=\"##\" class=\"hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md sm:inline dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\">10</a> \n\n            <a href=\"##\" class=\"flex items-center justify-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white rounded-md dark:bg-gray-900 dark:text-gray-200 hover:bg-blue-500 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z\" clip-rule=\"evenodd\"></path></svg></a>";
-      t26 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      t18 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.create_component)(footerc.$$.fragment);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div0, "class", "max-w-lg mx-auto text-center");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path0, "d", "M12 14l9-5-9-5-9 5 9 5z");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path1, "d", "M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-linecap", "round");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-linejoin", "round");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "stroke-width", "2");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path2, "d", "M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg0, "xmlns", "http://www.w3.org/2000/svg");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg0, "class", "w-10 h-10 text-pink-500");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg0, "fill", "none");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg0, "viewBox", "0 0 24 24");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(svg0, "stroke", "currentColor");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(h3, "class", "mt-4 text-xl font-bold text-white");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(p1, "class", "mt-1 text-sm text-gray-300");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a0, "class", "block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10");
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a0, "href", "/services/digital-campaigns");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div1, "class", "grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div2, "class", "max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div3, "class", "flex items-center justify-center");
@@ -3961,24 +4006,14 @@ function create_fragment(ctx) {
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, div0);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, t5);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, div1);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div1, a0);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, svg0);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg0, path0);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg0, path1);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(svg0, path2);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, t6);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, h3);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(h3, t7);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(h3, t8);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, t9);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, p1);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p1, t10);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p1, t11);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p1, t12);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(p1, t13);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section0, t14);
+
+      for (var _i2 = 0; _i2 < each_blocks.length; _i2 += 1) {
+        each_blocks[_i2].m(div1, null);
+      }
+
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section0, t6);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(section0, div3);
-      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t26, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, t18, anchor);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.mount_component)(footerc, target, anchor);
       current = true;
     },
@@ -3986,21 +4021,35 @@ function create_fragment(ctx) {
       var _ref2 = _slicedToArray(_ref, 1),
           dirty = _ref2[0];
 
-      if ((!current || dirty &
-      /*posts*/
-      1) && t7_value !== (t7_value =
-      /*posts*/
-      ctx[0].title + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t7, t7_value);
-      if ((!current || dirty &
-      /*posts*/
-      1) && t10_value !== (t10_value =
-      /*posts*/
-      ctx[0].description + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t10, t10_value);
-      if (!current || dirty &
+      if (dirty &
       /*authors*/
-      2) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t12,
-      /*authors*/
-      ctx[1]);
+      1) {
+        each_value =
+        /*authors*/
+        ctx[0];
+
+        var _i3;
+
+        for (_i3 = 0; _i3 < each_value.length; _i3 += 1) {
+          var child_ctx = get_each_context(ctx, each_value, _i3);
+
+          if (each_blocks[_i3]) {
+            each_blocks[_i3].p(child_ctx, dirty);
+          } else {
+            each_blocks[_i3] = create_each_block(child_ctx);
+
+            each_blocks[_i3].c();
+
+            each_blocks[_i3].m(div1, null);
+          }
+        }
+
+        for (; _i3 < each_blocks.length; _i3 += 1) {
+          each_blocks[_i3].d(1);
+        }
+
+        each_blocks.length = each_value.length;
+      }
     },
     i: function i(local) {
       if (current) return;
@@ -4020,22 +4069,21 @@ function create_fragment(ctx) {
       if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t0);
       if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(section1);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(sidebarc);
-      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t26);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_each)(each_blocks, detaching);
+      if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach)(t18);
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.destroy_component)(footerc, detaching);
     }
   };
 }
 
 function instance($$self, $$props, $$invalidate) {
-  var posts = $$props.posts,
-      authors = $$props.authors;
+  var authors = $$props.authors;
 
   $$self.$$set = function ($$props) {
-    if ('posts' in $$props) $$invalidate(0, posts = $$props.posts);
-    if ('authors' in $$props) $$invalidate(1, authors = $$props.authors);
+    if ('authors' in $$props) $$invalidate(0, authors = $$props.authors);
   };
 
-  return [posts, authors];
+  return [authors];
 }
 
 var HomeC = /*#__PURE__*/function (_SvelteComponent) {
@@ -4050,8 +4098,7 @@ var HomeC = /*#__PURE__*/function (_SvelteComponent) {
 
     _this = _super.call(this);
     (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.init)(_assertThisInitialized(_this), options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__.safe_not_equal, {
-      posts: 0,
-      authors: 1
+      authors: 0
     });
     return _this;
   }

@@ -12,7 +12,8 @@ class HomeController extends Controller
     {
 
         $posts = Post::find(1);
-        $authors = Author::find(2)->posts;
+        $authors = Author::all();
+        // $authors->posts;
         // dd($authors, $posts);
         // $testposts = Author::find(1);
         
@@ -21,7 +22,7 @@ class HomeController extends Controller
         // $posts->author->title;
 
         return Inertia::render('HomeC', [
-            'posts' => $posts,
+            // 'posts' => $posts,
             'authors' => $authors,
 
         ]);

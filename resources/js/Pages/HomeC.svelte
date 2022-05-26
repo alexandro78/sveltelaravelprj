@@ -4,7 +4,7 @@
     import FooterC from "../Shared/FooterC.svelte";
 
 
-    export let posts, authors
+    export let authors
 </script>
 
 
@@ -22,6 +22,7 @@
 <section class="flex">
     <SidebarC />
     <section class="text-white bg-gray-900">
+       
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
             <div class="max-w-lg mx-auto text-center">
                 <h2 class="text-3xl font-bold sm:text-4xl">
@@ -37,10 +38,11 @@
                     aperiam fugit consequuntur saepe laborum.
                 </p>
             </div>
-
+           
             <div
                 class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3"
             >
+             {#each authors as author } 
                 <a
                     class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns"
@@ -65,18 +67,29 @@
                     </svg>
 
                     <h3 class="mt-4 text-xl font-bold text-white">
-                        {posts.title} Digital campaigns
+                       Digital campaigns
                     </h3>
 
                     <p class="mt-1 text-sm text-gray-300">
-                        {posts.description} 
-                        {authors} \----Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <!-- {#each authors as author }  -->
+                       ##--- {author.firstname} ********---##
+                        <!-- {/each} -->
+
+
+
+                        
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ex ut quo possimus adipisci distinctio alias voluptatum
                         blanditiis laudantium.
                     </p>
                 </a>
+                  {/each}
             </div>
+           
         </div>
+       
+
+
 
         <div class="flex items-center justify-center">
             <a
