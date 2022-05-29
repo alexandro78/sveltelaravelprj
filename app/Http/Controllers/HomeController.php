@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Inertia\Inertia;
 use App\Models\Author;
 use App\Models\Post;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -33,12 +34,15 @@ class HomeController extends Controller
 
     public function test()
     {
-        $author = Post::find(1)->author;
-        $posts = Author::find(2)->posts;
+        // $author = Post::all();
+        
+        $posts = Post::with('author')->get();
+    //    $posts->first()->author; //or find(n) method
+
 
         return view('test', [
+            
             'posts' => $posts,
-            'author' => $author,
     ]); 
     }
 
