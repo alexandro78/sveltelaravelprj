@@ -3857,7 +3857,7 @@ function get_each_context(ctx, list, i) {
   var child_ctx = ctx.slice();
   child_ctx[1] = list[i];
   return child_ctx;
-} // (45:13) {#each authors as author }
+} // (41:16) {#each authors as author}
 
 
 function create_each_block(ctx) {
@@ -3891,7 +3891,7 @@ function create_each_block(ctx) {
       p = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
       t3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("##--- ");
       t4 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(t4_value);
-      t5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" ********---##\r\n                        \r\n\r\n\r\n\r\n                        \r\n                     Lorem ipsum dolor sit amet consectetur adipisicing elit.\r\n                        Ex ut quo possimus adipisci distinctio alias voluptatum\r\n                        blanditiis laudantium.");
+      t5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" ********---##\r\n                            \r\n\r\n                            Lorem ipsum dolor sit amet consectetur adipisicing\r\n                            elit. Ex ut quo possimus adipisci distinctio alias\r\n                            voluptatum blanditiis laudantium.");
       t6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path0, "d", "M12 14l9-5-9-5-9 5 9 5z");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(path1, "d", "M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z");
@@ -4435,14 +4435,87 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function create_fragment(ctx) {
   var nav;
+  var div7;
+  var div6;
+  var div1;
+  var t0;
+  var div5;
+  var div2;
+  var a0;
+  var t1;
+  var a0_href_value;
+  var t2;
+  var a1;
+  var t3;
+  var a1_href_value;
+  var t4;
+  var a2;
+  var t5;
+  var a2_href_value;
+  var t6;
+  var a3;
+  var t8;
+  var div4;
   return {
     c: function c() {
       nav = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("nav");
-      nav.innerHTML = "<div class=\"container flex justify-end px-6 py-4 mx-auto \"><div class=\"md:flex md:items-center md:justify-between\"><div class=\"flex items-center justify-between\"><div class=\"flex md:hidden\"><button type=\"button\" class=\"text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"toggle menu\"><svg viewBox=\"0 0 24 24\" class=\"w-6 h-6 fill-current\"><path fill-rule=\"evenodd\" d=\"M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z\"></path></svg></button></div></div> \n\n          \n          <div class=\"flex-1 md:flex md:items-center md:justify-between\"><div class=\"flex flex-col -mx-4 md:flex-row md:items-center md:mx-8\"><a href=\"##\" class=\"px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700\">Join Slack</a> \n                  <a href=\"##\" class=\"px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700\">Browse Topics</a> \n                  <a href=\"##\" class=\"px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700\">Random Item</a> \n                  <a href=\"##\" class=\"px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700\">Experts</a></div> \n\n              <div class=\"flex items-center mt-4 md:mt-0\"><button type=\"button\" class=\"flex items-center focus:outline-none\" aria-label=\"toggle profile dropdown\"><div class=\"w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full\"><img src=\"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=334&amp;q=80\" class=\"object-cover w-full h-full\" alt=\"avatar\"/></div> \n\n                      <h3 class=\"mx-2 text-sm font-medium text-gray-700 dark:text-gray-200 md:hidden\">Khatab wedaa</h3></button></div></div></div></div>";
+      div7 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      div6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      div1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      div1.innerHTML = "<div class=\"flex md:hidden\"><button type=\"button\" class=\"text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"toggle menu\"><svg viewBox=\"0 0 24 24\" class=\"w-6 h-6 fill-current\"><path fill-rule=\"evenodd\" d=\"M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z\"></path></svg></button></div>";
+      t0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      div5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      div2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      a0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+      t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("Home");
+      t2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      a1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+      t3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("Contacts");
+      t4 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      a2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+      t5 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("About");
+      t6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      a3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+      a3.textContent = "test";
+      t8 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+      div4 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+      div4.innerHTML = "<button type=\"button\" class=\"flex items-center focus:outline-none\" aria-label=\"toggle profile dropdown\"><div class=\"w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full\"><img src=\"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=334&amp;q=80\" class=\"object-cover w-full h-full\" alt=\"avatar\"/></div> \n\n                      <h3 class=\"mx-2 text-sm font-medium text-gray-700 dark:text-gray-200 md:hidden\">Khatab wedaa</h3></button>";
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div1, "class", "flex items-center justify-between");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a0, "href", a0_href_value = window.route('home'));
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a0, "class", "px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a1, "href", a1_href_value = window.route('contact'));
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a1, "class", "px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a2, "href", a2_href_value = window.route('about'));
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a2, "class", "px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a3, "href", "##");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a3, "class", "px-2 py-1 mx-2 mt-2 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded-md md:mt-0 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div2, "class", "flex flex-col -mx-4 md:flex-row md:items-center md:mx-8");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div4, "class", "flex items-center mt-4 md:mt-0");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div5, "class", "flex-1 md:flex md:items-center md:justify-between");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div6, "class", "md:flex md:items-center md:justify-between");
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div7, "class", "container flex justify-end px-6 py-4 mx-auto ");
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(nav, "class", "bg-white shadow dark:bg-gray-800");
     },
     m: function m(target, anchor) {
       (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert)(target, nav, anchor);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(nav, div7);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div7, div6);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div6, div1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div6, t0);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div6, div5);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div5, div2);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, a0);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a0, t1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, t2);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, a1);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a1, t3);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, t4);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, a2);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(a2, t5);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, t6);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div2, a3);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div5, t8);
+      (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append)(div5, div4);
     },
     p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
     i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,

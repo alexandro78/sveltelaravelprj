@@ -2,6 +2,7 @@
     import NavC from "../Shared/NavC.svelte";
     import SidebarC from "../Shared/SidebarC.svelte";
     import FooterC from "../Shared/FooterC.svelte";
+    
     </script>
     
     
@@ -15,7 +16,7 @@
       plugins: [require('@tailwindcss/forms')]
     -->
     <NavC/>
-    
+   
     <section class="flex">
     <SidebarC/>
     <section class="text-white bg-gray-900">

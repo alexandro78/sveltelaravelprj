@@ -24,20 +24,21 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/about', function () {
     return Inertia\Inertia::render('AboutC');
-});
+})->name('about');
 
 Route::get('/contact', function () {
     return Inertia\Inertia::render('ContactC');
-});
+})->name('contact');
 
 Route::get('/content', function () {
     return Inertia\Inertia::render('ContentC');
 });
 
-Route::get('/test', function () {
-    return Inertia\Inertia::render('test');
-});
+// Route::get('/test', function () {
+//     return Inertia\Inertia::render('test');
+// });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home1');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/test', [HomeController::class, 'test'])->name('test');
+
