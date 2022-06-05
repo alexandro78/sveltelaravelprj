@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Inertia\Inertia;
 use App\Models\Author;
-use App\Models\Post;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
@@ -31,6 +32,31 @@ class HomeController extends Controller
 
         
     }
+
+    // public function search($request, $response){
+    //     $config = config('session');
+    //     $response->headers->setCookie(new Cookie('XSRF-TOKEN'));
+
+
+    //     return $response;
+
+    // }
+    public function search()
+    {
+        return view('search');
+          
+    } 
+    
+    public function getFormRequest(Request $request)
+    {
+       return $request->input();
+          
+    }
+
+
+
+
+
 
     public function test()
     {

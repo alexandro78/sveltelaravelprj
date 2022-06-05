@@ -1,4 +1,5 @@
 <?php
+namespace App;
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -18,9 +19,6 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
-// Route::get('/hh', function () {
-//     return Inertia\Inertia::render('HomeC');
-// })->name('home0');
 
 Route::get('/about', function () {
     return Inertia\Inertia::render('AboutC');
@@ -29,16 +27,14 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return Inertia\Inertia::render('ContactC');
 })->name('contact');
-
-Route::get('/content', function () {
-    return Inertia\Inertia::render('ContentC');
-});
-
-// Route::get('/test', function () {
-//     return Inertia\Inertia::render('test');
-// });
-
-Route::get('/', [HomeController::class, 'index'])->name('home');
-
+Route::get('/', [HomeController::class, 'index'])->name('content');
 Route::get('/test', [HomeController::class, 'test'])->name('test');
+
+
+Route::view("search", "search");
+Route::get('/res', [HomeController::class, 'getFormRequest'])->name('res');
+// Route::get('/search', [HomeController::class, 'search'])->name('search');
+
+
+
 
